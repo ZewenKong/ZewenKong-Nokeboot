@@ -57,7 +57,15 @@
 //}
 // - - - - - - - - - -
 
-// 1.2 Size of data types
+// 1.2 Print each type
+
+// %d - 打印整型
+// %c - 打印字符
+// %s - 打印字符串
+// %f - 打印 float 类型数据
+// %lf - 打印 double 类型数据
+
+// 1.3 Size of data types
 
 // Example 1
 // - - - - - - - - - -
