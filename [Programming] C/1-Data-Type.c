@@ -64,6 +64,7 @@
 // %s - 打印字符串
 // %f - 打印 float 类型数据
 // %lf - 打印 double 类型数据
+// %zu - 打印 sizeof() 的返回值
 
 // 1.3 Size of data types
 
