@@ -54,9 +54,13 @@
 //}
 // - - - - - - - - - -
 
-// 2.3 Variable scope and lifetime (变量的作用域和生命周期)
+// 2.3 Name of variable
+// 1) 名字必需有字母, 数字, 下划线组成. 不能有特殊符号, 以及不能由数字开头
+// 2) 不能包含关键字
 
-// 2.3.1 Scope
+// 2.4 Variable scope and lifetime (变量的作用域和生命周期)
+
+// 2.4.1 Scope
 
 // 限定变量名称可用性的范围为该变量名的 Scope 作用域 (变量可用的地方就为他的作用域)
 
@@ -66,7 +70,6 @@
 // Example 1 (To show scope of global variable)
 // - - - - - - - - - -
 //int global = 2020;
-//
 //
 //void test(void)  // a function
 //{
@@ -92,16 +95,16 @@
 //}
 // - - - - - - - - - -
 
-// 2.3.2 Lifetime 生命周期
+// 2.4.2 Lifetime 生命周期
 
 // Variable's lifetime (生命周期) 为变量的创建到变量的销毁之间的时间段
 
 // Life time of local variable -> 进入作用域(生命周期开始), 出作用域(生命周期结束)
 // Life time of global variable -> 整个程序的生命周期
 
-// 2.4 Constant
+// 2.5 Constant
 
-// 2.4.1 Contant types
+// 2.5.1 Contant types
 
 // 1) Literal constant 字面常量
 // 2) const 修饰的常变量
