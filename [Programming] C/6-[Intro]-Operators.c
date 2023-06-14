@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-// 6. Operators & Keywords
+// 6. Operators
 
-// 6.1 C operators
 // https://learn.microsoft.com/en-us/cpp/c-language/c-operators?view=msvc-170
 
 // 1) Additive operators (算数操作符)
@@ -244,68 +243,3 @@
 // 10)3) 结构成员操作符
 // .
 // ->
-
-// 6.2 C key words (general key words)
-
-// 1)
-// auto
-
-// Example
-// - - - - - - - - - -
-//int main(void)
-//{
-//    int a = 0;  // auto int a = 0; (所有局部变量前都有一个 auto (可省略))
-//    return 0;
-//}
-// - - - - - - - - - -
-
-// 2) 循环语句有关
-// for
-// while
-// do...while
-// break - 跳出循环(经常与循环一起使用)
-// continue
-
-// 3) 分支语句有关
-// if...else
-// case - 经常与 switch 一起使用
-// switch
-// default
-// goto
-
-// 4)
-// char
-// short
-// int
-// long
-// float
-// double
-// signed
-// unsigned
-
-// 5)
-// const
-
-// 6) (自定义)类型有关
-// enum - 枚举
-// struct - 结构体
-// union - 联合体(共用体)
-// sizeof - 与类型有关
-// typedef - 类型重命名
-// void - 无(经常用于函数的返回类型, 函数参数)
-
-// 7)
-// extern - 声明外部符号
-
-// 8)
-// register - 寄存器
-// static - 静态
-
-// 9)
-// return - 返回值
-
-// 10)
-// volatile
-
-// All key words
-// https://learn.microsoft.com/zh-cn/cpp/c-language/c-keywords?view=msvc-170
