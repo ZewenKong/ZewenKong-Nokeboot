@@ -1,3 +1,5 @@
+// No date record
+
 # Data type
 
 | Data type | CN name             | printf                  |
@@ -11,4 +13,5 @@
 | double    | 双精度浮点数        | `%lf ` 打印双精度浮点数 |
 |           |                     | `%p` 以地址的形式打印   |
 |           |                     | `%x` 打印十六进制       |
+
 
