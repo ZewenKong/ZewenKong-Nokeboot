@@ -2,4 +2,4 @@
 
 int v2 = 100;  // 全局变量
 
-// No date record
+// NO DATE RECORD

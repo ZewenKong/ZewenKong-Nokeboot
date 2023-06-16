@@ -66,4 +66,4 @@
 // 3) do...while loop
 // ...
 
-// No date record
+// NO DATE RECORD
