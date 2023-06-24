@@ -1,5 +1,3 @@
-# My Nokeboot
-
 # Math
 1. Linear Algebra
 
