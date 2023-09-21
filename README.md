@@ -1,5 +1,9 @@
-# Math
-1. Linear Algebra
+# Mathmatics
+<!-- Linear Algebra -->
+
+# Materials Science
+
+# Computer Science
 
 # Programming
 1. C
