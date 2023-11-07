@@ -1,0 +1,133 @@
+$ ls 
+# list (列出文件)
+
+$ ls - l
+# 列出文件及属性 
+# d 开头为目录, - 开头为普通文件
+# rwx 为权限 read, write, execute
+
+e.g.
+drwxr-xr-x@   5 partnersh  staff   160 17 Jan  2023 Miranda
+
+d >>> 目录
+rwx >>> partnersh (in staff group) 权限
+r-x >>> staff group 里其他人的 权限 
+r-x >>> 再之后的 权限
+160 >>> 文件大小
+17 Jan >>> 修改时间
+Miranda >>> 文件名
+
+$ ls - a
+# 列出隐藏文件
+# 隐藏文件 以 . 开头 (.hiddenfile)
+
+$ ls - la
+# 列出隐藏文件及属性
+
+$ ll
+# ls - l 的缩写
+
+$ cd
+# 进入一个目录(文件夹)
+
+$ cd ..
+# 返回上一层目录
+
+$ cd .
+# 当前目录
+
+$ cd ../..
+# 返回上一层目录的上一层目录
+
+$ cd -
+# 返回上一个进入的目录
+
+$ pwd 
+# print working directly
+# 打印当前路径
+
+$ cat (examplefile)
+# 打开 examplefile 文本文件
+
+$ 上/下键
+# 变为上一个命令/取消
+
+$ head (examplefile)
+# 打开/查看 examplefile 文件开头内容
+
+$ head --lines=2 (examplefile)
+# 打开/查看 examplefile 文件开头2行
+
+$ control^ A
+# 回到输入开头
+
+$ tail (examplefile)
+# 打开/查看 file 文件尾部内容
+
+$ less (examplefile)
+# 查看完整 examplefile 文件内容
+# q >>> quit
+
+$ more (examplefile)
+# 查看完整 file 文件内容
+
+$ nano (examplefile)
+# 使用 nano 编辑 examplefile 文本
+
+$ vim (examplefile)
+# 使用 vim 编辑 examplefile 文本
+# :q >>> quit
+# :q! >>> force quit
+# :wq >>> 写(write) 之后 quit
+# :i >>> insert 编辑
+# esc >>> 退出 insert 模式
+
+$ file (examplefile)
+# 查看 examplefile 属性
+
+$ where (example file)
+# 查看 examplefile 路径
+# where = which
+
+$ echo (exampletext)
+$ 打印 exampletext
+
+e.g. use variable
+$ a="456"
+$ echo "123$a"
+# 123456
+$ echo "123${a}"
+# 123456
+
+$ mv name01 name02
+# mv 重命名
+# change the file name "name01" to "name02"
+
+e.g. use "for" loop
+
+$ for function in name??
+# function >>> function name
+# name?? >>> 名字以 name 开头后续两个字符的文件
+# 选中 name?? 的变量
+$ for> do
+# 开始函数
+$ for> echo $function
+# 打印 function 变量
+$ for> done
+# 完成
+
+$ do
+$ echo ${function#name}
+$ done
+# 打印 删除选中变量内的 name 字符
+
+$ do
+$ echo NAME${function#name}
+$ done
+# 打印 删除选中变量内的 name 字符并添加 NAME 字符
+
+$ do
+$ mv ${function} NAME${function#name}
+$ done
+# 批量更改目录名
+# # 掐头 % 去尾
