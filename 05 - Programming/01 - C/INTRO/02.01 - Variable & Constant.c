@@ -1,5 +1,6 @@
-// 2. Variable & Constant
 #include <stdio.h>
+
+// 2. Variable & Constant
 
 // 2.1 Type of variable
 

@@ -1,5 +1,6 @@
-// 1. Data type
 #include <stdio.h>
+
+// 1. Data type
 
 // 1.1 Data types in C
 

@@ -2,7 +2,7 @@
 
 // 2) 修饰全局变量 - 称为静态全局变量
 
-// int g_val = 2022;
+int g_val = 2022;
 
 // 全局变量是具有外部链接属性的
 
@@ -14,17 +14,16 @@
 
 // 3) 修饰函数 - 称为静态函数
 
-//int Add(int x, int y)
-//{
-//    return x + y;
-//}
+// int Add(int x, int y)
+// {
+//     return x + y;
+// }
 
 // 函数是具有外部链接属性的
 
-//static int Add(int x, int y)
-//{
-//    return x + y;
-//}
+// static int Add(int x, int y)
+// {
+//     return x + y;
+// }
 
 // 当被 static 修饰的时候, 外部链接属性变成为内部链接属性 (其他源文件(.c)就无法使用)
-

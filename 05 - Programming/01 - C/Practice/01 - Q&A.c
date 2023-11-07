@@ -9,7 +9,7 @@
 // - - - - - - - - - -
 
 // - - - - - - - - - -
-//int main(void)
+// int main(void)
 //{
 //    char arr_1[] = {'b', 'i', 't'};
 //    printf("%d\n", strlen(arr_1));  // random value
@@ -26,7 +26,7 @@
 // - - - - - - - - - -
 
 // - - - - - - - - - -
-//int main(void)
+// int main(void)
 //{
 //    // 在 C99 标准前, 数组大小都是有常量或常量表达式来指定
 //    int arr1[3] = {1, 2, 3};  // okay
@@ -40,10 +40,10 @@
 //    return 0;
 //}
 // - - - - - - - - - -
- 
+
 // Compare two numbers
 // - - - - - - - - - -
-//int main(void)
+// int main(void)
 //{
 //    int n1 = 0;
 //    int n2 = 0;
@@ -66,7 +66,7 @@
 
 // Calculate y
 // - - - - - - - - - -
-//int xvalue(int xx)
+// int xvalue(int xx)
 //{
 //    if (xx < 0)
 //    {
@@ -83,7 +83,7 @@
 //}
 //
 //
-//int main(void)
+// int main(void)
 //{
 //    int x = 0;
 //    scanf("%d", &x);
