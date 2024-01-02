@@ -1,3 +1,5 @@
+# Easy
+
 # Method 1: Loop though the whole list
 def two_sum(nList, tValue):
     dic = {}
