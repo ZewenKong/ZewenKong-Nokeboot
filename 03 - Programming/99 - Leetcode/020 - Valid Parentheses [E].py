@@ -10,4 +10,5 @@ def validParentheses(s):
     return True
 
 print(validParentheses("{}"))
+
 print(validParentheses("{]"))
