@@ -6,8 +6,11 @@ def strStr(haystack: str, needle: str) -> int:
     for i in range(m - n + 1):
         for j in range(n):
             if haystack[i + j] != needle[j]:  # compare each position in haystack
-                break
-            if j == n - 1:
+                break  # if not match, break
+
+            if j == n - 1:  # if reached the end of the needle, return the start index
                 return i
+
+            # continue increasing j value
 
     return -1
