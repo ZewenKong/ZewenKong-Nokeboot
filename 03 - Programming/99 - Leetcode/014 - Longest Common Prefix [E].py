@@ -20,3 +20,4 @@ def longestCommonPrefix(strs):
 
 strs = ["flower","flow","flight"]
 print(*strs)
+
