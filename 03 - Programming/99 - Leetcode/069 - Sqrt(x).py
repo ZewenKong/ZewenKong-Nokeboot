@@ -13,3 +13,4 @@ def mySqrtFunction(x):
         else:
             l = mid
 
+# 二分法
